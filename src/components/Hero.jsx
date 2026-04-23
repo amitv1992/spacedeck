@@ -3,7 +3,7 @@ import { Globe, ArrowDown } from 'lucide-react';
 export default function Hero() {
   const handleScroll = (e) => {
     e.preventDefault();
-    const el = document.getElementById('features');
+    const el = document.getElementById('how-it-works');
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
 
