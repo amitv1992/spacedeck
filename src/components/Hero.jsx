@@ -48,7 +48,7 @@ export default function Hero() {
         <div className="hero-visual">
           <div className="hero-screenshot-wrapper">
             <img
-              src="/hero-screenshot.png"
+              src="hero-screenshot.png"
               alt="SpaceDeck dashboard showing project spaces with organized tabs"
               loading="eager"
             />

@@ -15,7 +15,7 @@ export default function Screenshots() {
         <div className="screenshots-gallery">
           <div className="screenshot-frame reveal reveal-delay-1">
             <img
-              src="/features-screenshot.png"
+              src="features-screenshot.png"
               alt="SpaceDeck workspace overview showing multiple project spaces"
               loading="lazy"
             />
@@ -27,7 +27,7 @@ export default function Screenshots() {
 
           <div className="screenshot-frame reveal reveal-delay-2">
             <img
-              src="/search-screenshot.png"
+              src="search-screenshot.png"
               alt="SpaceDeck global search command palette"
               loading="lazy"
             />

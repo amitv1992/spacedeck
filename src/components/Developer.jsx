@@ -49,12 +49,12 @@ export default function Developer() {
             }}
           >
             <img
-              src="/developer-avatar1.jpg"
+              src="developer-avatar1.jpg"
               alt="Amit Varshney Dev"
               className="avatar-base"
             />
             <img
-              src="/developer-avatar2.jpg"
+              src="developer-avatar2.jpg"
               alt="Amit Varshney Developer"
               className="avatar-overlay"
             />
