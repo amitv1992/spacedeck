@@ -50,7 +50,7 @@ export default function Navbar() {
           <li><a href="#privacy" onClick={(e) => handleNavClick(e, 'privacy')}>Privacy</a></li>
         </ul>
 
-        <a href="#" className="btn btn-primary navbar-cta" id="nav-cta-button"
+        <a href="#" className="btn btn-primary navbar-cta" id="nav-cta-button" data-umami-event="nav-cta-chrome"
           onClick={(e) => e.preventDefault()}>
           Coming Soon
           {/*Add to Chrome — Free*/}

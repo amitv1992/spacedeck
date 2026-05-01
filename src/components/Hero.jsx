@@ -33,12 +33,12 @@ export default function Hero() {
           </p>
 
           <div className="hero-actions">
-            <a href="#" className="btn btn-primary" id="hero-cta-chrome" onClick={(e) => e.preventDefault()}>
+            <a href="#" className="btn btn-primary" id="hero-cta-chrome" data-umami-event="hero-cta-chrome" onClick={(e) => e.preventDefault()}>
               <Globe size={18} />
               Coming Soon
               {/*Add to Chrome — It's Free*/}
             </a>
-            <button className="btn btn-ghost" onClick={handleScroll} id="hero-cta-learn">
+            <button className="btn btn-ghost" onClick={handleScroll} id="hero-cta-learn" data-umami-event="hero-cta-learn">
               <ArrowDown size={18} />
               See How It Works
             </button>

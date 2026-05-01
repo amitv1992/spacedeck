@@ -17,12 +17,12 @@ export default function CTABanner() {
         </div>
 
         <div className="cta-actions reveal reveal-delay-2">
-          <a href="#" className="btn btn-primary" id="cta-bottom-chrome" onClick={(e) => e.preventDefault()}>
+          <a href="#" className="btn btn-primary" id="cta-bottom-chrome" data-umami-event="cta-bottom-chrome" onClick={(e) => e.preventDefault()}>
             <Globe size={18} />
             Coming Soon
             {/*Add to Chrome — It's Free*/}
           </a>
-          <a href="#features" className="btn btn-ghost" onClick={(e) => {
+          <a href="#features" className="btn btn-ghost" data-umami-event="cta-bottom-features" onClick={(e) => {
             e.preventDefault();
             document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' });
           }}>
